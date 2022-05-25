@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPlainTextEdit" name="plainTextEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuoptions">
+    <property name="title">
+     <string>options</string>
+    </property>
+    <addaction name="actionopen_file"/>
+    <addaction name="actionsave_2"/>
+    <addaction name="actionSaveAs"/>
+    <addaction name="separator"/>
+    <addaction name="actionMerge"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionfirst_capital_2"/>
+    <addaction name="actionupper_case"/>
+    <addaction name="actionlower_case"/>
+    <addaction name="separator"/>
+    <addaction name="actionempty_the_file"/>
+   </widget>
+   <widget class="QMenu" name="menuencryption">
+    <property name="title">
+     <string>encryption</string>
+    </property>
+    <addaction name="actionEncrypt_2"/>
+    <addaction name="actionDecrypt_2"/>
+   </widget>
+   <widget class="QMenu" name="menustatistics">
+    <property name="title">
+     <string>statistics</string>
+    </property>
+    <addaction name="actionnumber_of_the_words"/>
+    <addaction name="actionnumber_of_charactares"/>
+    <addaction name="actionnumber_of_lines"/>
+   </widget>
+   <widget class="QMenu" name="menusearch">
+    <property name="title">
+     <string>search</string>
+    </property>
+    <addaction name="actionfor_word"/>
+    <addaction name="actioncount_number_of_times_of_word"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionabout"/>
+   </widget>
+   <addaction name="menuoptions"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuencryption"/>
+   <addaction name="menustatistics"/>
+   <addaction name="menusearch"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionsave">
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+  <action name="actionall_file_to_upper">
+   <property name="text">
+    <string>all file to upper</string>
+   </property>
+  </action>
+  <action name="actionall_file_to_small">
+   <property name="text">
+    <string>all file to small</string>
+   </property>
+  </action>
+  <action name="actionfirst_capital">
+   <property name="text">
+    <string>first capital</string>
+   </property>
+  </action>
+  <action name="actionEncrypt">
+   <property name="text">
+    <string>Encrypt</string>
+   </property>
+  </action>
+  <action name="actionDecrypt">
+   <property name="text">
+    <string>Decrypt</string>
+   </property>
+  </action>
+  <action name="actionclear">
+   <property name="text">
+    <string>clear</string>
+   </property>
+  </action>
+  <action name="actionopen_file">
+   <property name="text">
+    <string>open file</string>
+   </property>
+  </action>
+  <action name="actionsave_2">
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+  <action name="actionfirst_capital_2">
+   <property name="text">
+    <string>first capital</string>
+   </property>
+  </action>
+  <action name="actionall_upper">
+   <property name="text">
+    <string>all upper </string>
+   </property>
+  </action>
+  <action name="actionall_lower">
+   <property name="text">
+    <string>all lower</string>
+   </property>
+  </action>
+  <action name="actionencyrpt">
+   <property name="text">
+    <string>encyrpt</string>
+   </property>
+  </action>
+  <action name="actiondecrypt">
+   <property name="text">
+    <string>decrypt</string>
+   </property>
+  </action>
+  <action name="actionEncrypt_2">
+   <property name="text">
+    <string>Encrypt</string>
+   </property>
+  </action>
+  <action name="actionDecrypt_2">
+   <property name="text">
+    <string>Decrypt</string>
+   </property>
+  </action>
+  <action name="actionempty_the_file">
+   <property name="text">
+    <string>empty the file</string>
+   </property>
+  </action>
+  <action name="actionnumber_of_the_words">
+   <property name="text">
+    <string>number of the words</string>
+   </property>
+  </action>
+  <action name="actionnumber_of_charactares">
+   <property name="text">
+    <string>number of charactares</string>
+   </property>
+  </action>
+  <action name="actionnumber_of_lines">
+   <property name="text">
+    <string>number of lines</string>
+   </property>
+  </action>
+  <action name="actionfor_word">
+   <property name="text">
+    <string>search by word</string>
+   </property>
+  </action>
+  <action name="actioncount_number_of_times_of_word">
+   <property name="text">
+    <string>count number of times of word</string>
+   </property>
+  </action>
+  <action name="actionmerge_file">
+   <property name="text">
+    <string>merge file</string>
+   </property>
+  </action>
+  <action name="actionSaveAs">
+   <property name="text">
+    <string>Save As</string>
+   </property>
+  </action>
+  <action name="actionMerge">
+   <property name="text">
+    <string>Merge</string>
+   </property>
+  </action>
+  <action name="actionabout">
+   <property name="text">
+    <string>about</string>
+   </property>
+  </action>
+  <action name="actionupper_case">
+   <property name="text">
+    <string>upper case</string>
+   </property>
+  </action>
+  <action name="actionlower_case">
+   <property name="text">
+    <string>lower case</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
